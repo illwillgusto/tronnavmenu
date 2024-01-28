@@ -1,3 +1,45 @@
 @charset "UTF-8";
-/* CSS Document */
+
+
+:root {
+	-- color: #24CE8F;
+	-- background: #000000;
+	-- nav-background: #141318;
+	-- nav-item-bg-hover: #79797920;
+	-- navbar-height: 4rem;
+	-- text-gray: #252525;
+	-- text-white: white;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Poppins, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: var(--background);
+}
+
+nav {
+	background: var(--nav-background);
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: var(--navbar-height);
+}
+
+.navigation {
+	max-width: 600px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	align-items: center;
+}
 
